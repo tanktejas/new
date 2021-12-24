@@ -1,0 +1,78 @@
+*{
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin-top: 8px;
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    grid-template-rows: auto;
+    grid-template-areas: 'left middle middle middle right right';
+}
+.navbar >div{
+    padding: 9px 6px;
+}
+.st{
+    padding: 9px 23px !important;
+   grid-area: left;
+   display: flex;
+}
+.nd{
+    grid-area: middle;
+}
+.rd{
+   display: flex;
+    float: right;
+    justify-content: flex-end;
+    grid-area: right;
+}
+.st svg{
+    font-size: 40px ;
+     padding: 0px 7px;
+}
+.nd{ 
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 110px; 
+
+}
+ 
+.nd input{
+    border: 3px solid rgb(241, 241, 241);
+    height: 46px;
+   width: 610px;
+   font-size: 17px;
+   background-color: rgba(226, 224, 219, 0.301);
+   padding:  0px 19px;
+   border-radius: 9px;
+   box-shadow: 2px 2px 3px 3px rgba(0, 0, 0, 0.39);
+}
+.nd input:active{
+    background-color: white;
+}
+.nd svg{
+    font-size: 40px;
+     padding: 0px 7px;
+}
+.st svg:hover,.nd svg:hover{
+      cursor: pointer;
+      background-color: rgb(240, 231, 214);
+      border-radius: 50%;
+}
+ 
+.rd svg:hover{
+    cursor: pointer;
+    background-color: rgb(235, 234, 232);
+    border-radius: 40%;
+}
+.st img{
+    height: 44px;
+    width: 40px;
+    margin:0px 23px;  
+    border-radius: 9px;
+}
+.rd svg{
+    margin: 11px 13px;
+    font-size: 28px;
+}

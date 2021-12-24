@@ -1,0 +1,53 @@
+.maincolo{
+ 
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+ 
+}
+.maincolo :hover{
+    cursor: pointer;
+}
+.maincolo div{
+   margin: 3px;       
+}
+.red{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(247, 122, 122);
+}
+.white{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: white;
+}
+.orange{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(245, 166, 101, 0.705);
+}
+.yellow{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(245, 243, 132, 0.658);
+}
+.brown{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgba(165, 82, 82, 0.822);
+}
+.iconfornote{
+    float: right;  
+}
+.iconfornote svg{
+    margin-right: 8px;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.692);
+}
+.iconfornote svg:nth-child(2){
+  margin-right: -4px !important;
+}

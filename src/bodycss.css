@@ -1,0 +1,51 @@
+.body{
+    margin: 10px 27px;
+  display: flex;
+  flex-direction: flex-start;
+
+}
+.navigation{
+    width: 185px;
+    margin-top: 20px;
+    box-shadow: 5px 1px 6px -1px rgba(63, 62, 62, 0.37);
+    height: 100vh;   
+} 
+.navigation p:hover{
+    background-color: rgb(243, 228, 207) !important;
+    cursor: pointer;
+
+}
+.navigation p{  
+   text-align: left;
+    font-weight: 600;
+    padding: 16px 23px;
+    border-radius:0px 34px 34px 0px;
+    height: 53px;  
+    width: 100%;
+}
+.body .leftm{
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+}
+.body .leftm svg{ 
+    font-size: 40px ;
+    margin-top: 28px ;
+}  
+
+    
+.body .leftm svg:hover{  
+    cursor: pointer;    
+    background-color: rgb(238, 222, 222);
+    border-radius: 23px 0px 0px 23px;  
+}       
+.body .leftm svg{   
+    font-size: 40px;
+    margin-top: 13px;
+}
+.navigation{
+    float: left;
+}
+.toolforsetting{
+    
+}

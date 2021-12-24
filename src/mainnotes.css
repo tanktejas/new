@@ -1,0 +1,76 @@
+ .mainnotes{
+     margin-top: 23px;
+  width:1100px;
+  margin-left: 61px;
+}
+.abc{
+    width:  100%;
+    height: 100%;
+}
+.mainnotes div,
+.inner textarea{   
+            
+    margin: auto;
+    border: 2px solid rgb(255, 255, 255);
+    width: 501px;
+    border-radius: 7px;   
+    padding: 4px 9px;
+    outline:none;
+      
+}
+.icon .MuiSvgIcon-root{
+    font-size: 1.7rem !important;
+}
+.inner textarea{
+    margin-top: 6px;
+    margin-bottom: 6px;
+     font-size:20px;  
+     width: 509px;
+}
+.icon{
+    margin-left: 0px !important;
+    margin: 0px !important;
+    height: 42px;
+}
+.inner{
+    height:auto !important;
+    width: 527px !important;
+  border: 3px solid black;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 7px -1px black;
+}        
+.inner div,
+.inner textarea{
+       font-weight: 500;
+       color: rgba(65, 63, 63, 0.664);
+       height: auto;
+}        
+ 
+.title svg{
+    float: right;
+}
+.icon svg{
+   margin-left: 15px;
+   padding: 2.3px;
+}
+.icon .fir{
+    margin-left: 0px;
+}
+.icon .add{
+    float: right;
+}
+.title svg:hover , 
+.icon svg:hover{
+    background-color: rgba(221, 214, 204, 0.37);
+     border-radius: 50%;
+     cursor: pointer;
+}
+.notesready{
+    width: auto;
+    height: auto;
+    margin: 60px 115px;
+   margin-left: 140px;
+}
+.rightb{
+    float: right;
+}
